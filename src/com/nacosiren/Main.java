@@ -3,11 +3,17 @@ package com.nacosiren;
 public class Main {
 
     public static void main(String[] args) {
-//        CatCrawler catCrawler = new CatCrawler(CatGender.MALE);
-//        catCrawler.startCrawling();
+        //BestFriendsCatCrawler bestFriendsMaleCatCrawler = new BestFriendsCatCrawler(CatGender.MALE);
+        //bestFriendsMaleCatCrawler.startCrawling();
 
-        CatCrawler catCrawler = new CatCrawler(CatGender.FEMALE);
-        catCrawler.startCrawling();
+        //BestFriendsCatCrawler bestFriendsFemaleCatCrawler = new BestFriendsCatCrawler(CatGender.FEMALE);
+        //bestFriendsFemaleCatCrawler.startCrawling();
+
+        AdoptAPetCatCrawler adoptAPetMaleCatCrawler = new AdoptAPetCatCrawler(CatGender.MALE);
+        adoptAPetMaleCatCrawler.startCrawling();
+
+        AdoptAPetCatCrawler adoptAPetFemaleCatCrawler = new AdoptAPetCatCrawler(CatGender.FEMALE);
+        adoptAPetFemaleCatCrawler.startCrawling();
 
     }
 }
