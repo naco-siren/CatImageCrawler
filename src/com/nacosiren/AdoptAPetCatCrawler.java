@@ -23,7 +23,7 @@ import java.util.ArrayList;
  */
 public class AdoptAPetCatCrawler extends CatCrawler {
     public static final String URL_HEADER = "http://www.adoptapet.com/cat-adoption/search/250/miles/";
-    public static final String[] LOCATIONS = new String[]{"NEW%20YORK%2C%20NY", "San%20Jose%2C%20CA"};
+    public static final String[] LOCATIONS = new String[]{"NEW%20YORK%2C%20NY", "SEATTLE%2C%20WA", "TACOMA%2C%20WA", "BELLEVUE%2C%20WA", "SAN%20FRANCISCO%2C%20CA", "BERKELEY%2C%20CA", "PALO%20ALTO%2C%20CA", "MOUNTAIN%20VIEW%2C%20CA", "SUNNYVALE%2C%20CA", "SAN%20JOSE%2C%20CA", "CHICAGO%2C%20IL", "PHILADELPHIA%2C%20PA", "ORLANDO%2C%20FL", "INDIANAPOLIS%2C%20IN", "DETROIT%2C%20MI", "MILWAUKEE%2C%20WI", "DALLAS%2C%20TX", "ATLANTA%2C%20GA", ""};
 
     /**
      * Constructor
